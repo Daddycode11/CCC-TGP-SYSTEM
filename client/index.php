@@ -284,11 +284,11 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
 </style>
 <div class="container mt-4">
   <div class="d-flex flex-wrap justify-content-center gap-3">
-    <a href="./voters_certificate.php" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
-      <img src="../src/assets/ccc.png" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Voters Certificate" />
+    <a href="./Calintaan_com_chapter.php" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+      <img src="../src/assets/ccc.png" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Calintaan_com_chapter" />
       <h4 class="mt-3 animated-text">CALINTAAN COMMUNITY CHAPTER</h4>
     </a>
-    <a href="#" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+    <a href="./Iriron_com_chapter.php" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
       <img src="../src/assets/iriron.jpg" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Iriron Chapter" />
       <h4 class="mt-3 animated-text">Brgy. IRIRON COMMUNITY CHAPTER</h4>
     </a>
