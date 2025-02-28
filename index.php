@@ -199,7 +199,7 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
                         href="#">
                         <span class="material-symbols-outlined">call</span> Contact</a>
                     <a class="nav-link d-flex align-items-center justify-content-start gap-2 text-light mx-3"
-                        href="./about.html">
+                        href="./about.php">
                         <span class="material-symbols-outlined">info</span> About us</a>
 
                     <a onclick="w3.toggleShow('#login_form')"
@@ -633,6 +633,53 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
     </div>
 
     <a href="#" class="see-all-btn">See All Community Services</a>
+</br>
+</br>
+</br>
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Logo & Motto -->
+      <div class="col-md-4 text-center text-md-start mb-3">
+        <img src="./src/assets/2nd water mark.png" alt="Tau Gamma Phi Logo" style="max-width: 450px;">
+        <h5 class="mt-2 fw-bold text-warning">Tau Gamma Phi</h5>
+        <p class="fst-italic">"A True Triskelion is Always a Triskelion"</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 text-center mb-3">
+        <h5 class="text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Membership</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social Media -->
+      <div class="col-md-4 text-center text-md-end mb-3">
+        <h5 class="text-warning">Contact Us</h5>
+        <p class="mb-1"><i class="fas fa-map-marker-alt text-warning"></i> Calintaan Occidental Mindoro Municipal Grand Council</p>
+        <p class="mb-1"><i class="fas fa-envelope text-warning"></i> calintaantriskelion02@gmail.com</p>
+        <p class="mb-1"><i class="fas fa-phone text-warning"></i> +63 9811152433</p>
+        <div class="mt-3">
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center border-top pt-3 mt-3">
+      <p class="mb-0">© 2025 Tau Gamma Phi. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FontAwesome for icons (if not included already) -->
+<script src="https://kit.fontawesome.com/YOUR-FONTAWESOME-KIT.js" crossorigin="anonymous"></script>
 
     <script>
         // JavaScript for filtering

@@ -239,34 +239,63 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
         </div>
     </form>
 </div>
-
-    <h4 class="text-start fw-bold">PROCESS OF WALK IN REGISTRATIONS:</h4>
-        <div class="row text-white justify-content-around gap-3">
-            <div class="col col-md-2 bg-success p-5">
-                <h5 class="fw-bold">step 1: </h5>
-                <p class="px-2 text-start">
-                    <i class="fa fa-check"></i> Go to the Calintaan community chapter Frat kubo or Officer
-                </p>
-            </div>
-            <div class="col col-md-2 bg-success p-5">
-                <h5 class="fw-bold">step 2: </h5>
-                <p class="px-2 text-start">
-                    <i class="fa fa-check"></i> Present ID and state your purpose
-                </p>
-            </div>
-            <div class="col col-md-2 bg-success p-5">
-                <h5 class="fw-bold">step 3: </h5>
-                <p class="px-2 text-start">
-                    <i class="fa fa-check"></i> Provide VALID Information
-                </p>
-            </div>
-            <div class="col col-md-2 bg-success p-5">
-                <h5 class="fw-bold">step 4: </h5>
-                <p class="px-2 text-start">
-                    <i class="fa fa-check"></i> Sign in to log book
-                </p>
-            </div>
+<h4 class="text-start fw-bold">WALK IN PROCESS REGISTRATIONS:</h4>
+<div style="min-height: 80vh; background: url('your-background-image.jpg') center/cover no-repeat;" class="w-full py-5">
+  <div class="container">
+    <h2 class="text-center text-warning fw-bold mb-4">
+      4-Step Process for Aspiring Calintaan Triskelions
+    </h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- Step 1 -->
+        <div class="card mb-4 shadow border-0">
+          <div class="card-header bg-warning text-black  fw-bold">Step 1: Express Interest</div>
+          <div class="card-body bg-black">
+            <p class="card-text">
+              Visit the official Calintaan Triskelion website or your local chapter to learn more about the fraternity and its values.
+            </p>
+          </div>
         </div>
+
+        <!-- Step 2 -->
+        <div class="card mb-4 shadow border-0">
+          <div class="card-header bg-warning text-black fw-bold">Step 2: Application Submission</div>
+          <div class="card-body bg-black">
+            <p class="card-text">
+              Fill out the membership application form and submit the required documents to the local chapter.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="card mb-4 shadow border-0">
+          <div class="card-header bg-warning text-black  fw-bold">Step 3: Orientation & Evaluation</div>
+          <div class="card-body bg-black">
+            <p class="card-text">
+              Attend an orientation session where the fraternity's principles, mission, and expectations are discussed.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="card mb-4 shadow border-0">
+          <div class="card-header bg-warning text-black  fw-bold">Step 4: Final Initiation & Membership</div>
+          <div class="card-body bg-black">
+            <p class="card-text">
+              Complete the required initiation process and officially become a member of the Calintaan Triskelions.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-warning px-5 rounded-3 shadow">Start Your Journey</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script>
     $(document).ready(function() {
 
