@@ -132,7 +132,6 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
         </div>
     </div>
 </div>
-
 <style>
 /* Fade-in Animation for Container */
 .animated-container {
@@ -282,6 +281,9 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
 }
 
 </style>
+         <div class="text-center">
+   <h2 class="fw-bold typing-effect">Tau Gamma Phi </h2>
+</div>
 <div class="container mt-4">
   <div class="d-flex flex-wrap justify-content-center gap-3">
     <a href="./Calintaan_com_chapter.php" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
@@ -300,8 +302,22 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
       <img src="../src/assets/tanyag.jpg" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Tanyag Chapter" />
       <h4 class="mt-3 animated-text">Brgy. TANYAG COMMUNITY CHAPTER</h4>
     </a>
+    <!-- Newly added barangay community chapter cards -->
+    <a href="#" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+      <img src="../src/assets/malpalon.jpg" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Malpalon Chapter" />
+      <h4 class="mt-3 animated-text">Brgy. MALPALON COMMUNITY CHAPTER</h4>
+    </a>
+    <a href="#" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+      <img src="../src/assets/concepcion.jpg" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Concepcion Chapter" />
+      <h4 class="mt-3 animated-text">Brgy. CONCEPCION COMMUNITY CHAPTER</h4>
+    </a>
+    <a href="#" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+      <img src="../src/assets/poypoy.jpg" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Poypoy Chapter" />
+      <h4 class="mt-3 animated-text">Brgy. POYPOY COMMUNITY CHAPTER</h4>
+    </a>
   </div>
 </div>
+
 <style>
 /* Scale and fade-in animation for each card with a longer duration */
 .animated-card {
@@ -386,11 +402,171 @@ if(isset($_SESSION['login']) && $_SESSION['login']) {
 </div>
 <br>
 <br>
+  <div class="text-center">
+   <h2 class="fw-bold typing-effect">Tau Gamma Sigma </h2>
+</div>
+<div class="container mt-4">
+  <div class="d-flex flex-wrap justify-content-center gap-3">
+    <a href="./Calintaan_com_chapter.php" class="btn btn-warning text-white p-4 text-center rounded animated-card" style="width: 250px;">
+      <img src="../src/assets/lady logo.png" class="rounded-circle border animated-img" style="height: 150px; width: 150px;" alt="Calintaan_com_chapter" />
+      <h4 class="mt-3 animated-text">CALINTAAN COMMUNITY CHAPTER</h4>
+    </a>
+
+  </div>
+</div>
+<style>
+/* Scale and fade-in animation for each card with a longer duration */
+.animated-card {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInCard 1.5s ease-out forwards; /* Increased time */
+  transition: transform 0.5s ease-in-out; /* Increased transition time */
+}
+
+/* Animation for Image with a longer duration */
+.animated-img {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeInImage 1.5s ease-out forwards; /* Increased time */
+}
+
+/* Animation for Text with a longer duration */
+.animated-text {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInText 1.5s ease-out forwards; /* Increased time */
+}
+
+/* Fade-in effect for the card with a longer duration */
+@keyframes fadeInCard {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fade-in effect for the image with a longer duration */
+@keyframes fadeInImage {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fade-in effect for the text with a longer duration */
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effect for cards (scale and shadow) */
+.animated-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease; /* Longer transition */
+}
+
+/* Hover effect for images */
+.animated-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s ease; /* Longer transition */
+}
+
+/* Hover effect for text */
+.animated-text:hover {
+  color: #f1f1f1;
+  transition: color 0.4s ease; /* Longer transition */
+}
+
+</style>
+
     <script>
     $(document).ready(function() {
 
     });
     </script>
+    <footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Logo & Motto -->
+      <div class="col-md-4 text-center text-md-start mb-3">
+        <img src="./src/assets/2nd water mark.png" alt="Tau Gamma Phi Logo" style="max-width: 450px;">
+        <h5 class="mt-2 fw-bold text-warning">Tau Gamma Phi</h5>
+        <p class="fst-italic">"A True Triskelion is Always a Triskelion"</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 text-center mb-3">
+        <h5 class="text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Membership</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social Media -->
+      <div class="col-md-4 text-center text-md-end mb-3">
+        <h5 class="text-warning">Contact Us</h5>
+        <p class="mb-1"><i class="fas fa-map-marker-alt text-warning"></i> Calintaan Occidental Mindoro Municipal Grand Council</p>
+        <p class="mb-1"><i class="fas fa-envelope text-warning"></i> calintaantriskelion02@gmail.com</p>
+        <p class="mb-1"><i class="fas fa-phone text-warning"></i> +63 9811152433</p>
+        <div class="mt-3">
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center border-top pt-3 mt-3">
+      <p class="mb-0">© 2025 Tau Gamma Phi. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FontAwesome for icons (if not included already) -->
+<script src="https://kit.fontawesome.com/YOUR-FONTAWESOME-KIT.js" crossorigin="anonymous"></script>
+
+    <script>
+        // JavaScript for filtering
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const category = this.getAttribute('data-category');
+
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('bg-blue', 'bg-yellow'); // Remove active styles
+                    btn.classList.add('bg-gray'); // Set inactive styles
+                });
+
+                this.classList.remove('bg-gray'); // Remove inactive style
+                this.classList.add(category === "all" ? 'bg-yellow' : 'bg-blue'); // Set active style
+
+                document.querySelectorAll('.service-card').forEach(card => {
+                    if (category === "all") {
+                        card.style.display = "block";
+                    } else {
+                        card.style.display = card.classList.contains(category) ? "block" : "none";
+                    }
+                });
+            });
+        });
 </body>
 
 </html>
